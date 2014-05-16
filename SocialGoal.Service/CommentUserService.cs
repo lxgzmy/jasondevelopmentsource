@@ -74,6 +74,7 @@ namespace SocialGoal.Service
        
         public void SaveCommentUser()
         {
+            //this is commit to db
             unitOfWork.Commit();  
         }
 
